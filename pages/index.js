@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      {projects.map(ProjectListElement)}
+      {/* {projects.map(ProjectListElement)} */}
     </main>
   );
 }

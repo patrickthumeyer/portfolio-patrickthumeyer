@@ -24,7 +24,7 @@ export default function HelloWorld() {
             long run. I decided to jump into Web Development in order to learn a
             new skill which also holds the potential to benefit from my former
             experience and gives me a clearer purpose of what I’m working
-            towards in a organisation. I am very excited to tackle all the new
+            towards in an organisation. I am very excited to tackle all the new
             problems being thrown my way and to dive deeper into the world of
             Web Development.
           </div>
@@ -56,7 +56,7 @@ export default function HelloWorld() {
         <h2>
           Current fields of expertise:{" "}
           <span>
-            JS, React, HTML, CSS3 / SASS, Bootstrap, Handlebars, NodeJS
+            JS, React, HTML, CSS3, SASS, Bootstrap, Handlebars, NodeJS
           </span>
         </h2>
       </div>
