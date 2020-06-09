@@ -26,7 +26,7 @@
   height: 20px;
   background-color: rgba(71, 92, 71, 0.8);
   top: -15px;
-  right: -30px;
+  right: -27px;
   border-radius: 50%;
 }
 
@@ -38,7 +38,7 @@
   height: 30px;
   background-color: rgba(121, 138, 121, 0.8);
   top: -20px;
-  right: -35px;
+  right: -32px;
   border-radius: 50%;
 }
 
@@ -84,6 +84,10 @@
 .imageContainer {
   display: flex;
   align-items: center;
+}
+
+.socialIcon:hover {
+  fill: rgba(71, 92, 71, 0.8);
 }
 
 .iconsContainer {
@@ -148,5 +152,16 @@
 
   .hero {
     height: fit-content;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 85%;
+  }
+
+  .expertise {
+    width: 85%;
+    padding: 50px 15px;
   }
 }
