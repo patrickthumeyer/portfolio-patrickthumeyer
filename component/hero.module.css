@@ -71,7 +71,7 @@
 
 .wrapper {
   width: 70%;
-  background-color: rgba(80, 80, 80, 0.4);
+  background-color: rgba(160, 160, 160, 0.4);
   display: flex;
   border-radius: 8px;
   backdrop-filter: blur(5px);
@@ -96,7 +96,7 @@
 
 .expertise {
   width: 70%;
-  background-color: rgba(80, 80, 80, 0.4);
+  background-color: rgba(160, 160, 160, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
