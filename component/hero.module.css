@@ -26,8 +26,13 @@
   height: 20px;
   background-color: rgba(71, 92, 71, 0.8);
   top: -15px;
-  right: -27px;
+  right: -30px;
   border-radius: 50%;
+  animation-name: dot-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .hero h1:before {
@@ -38,8 +43,13 @@
   height: 30px;
   background-color: rgba(121, 138, 121, 0.8);
   top: -20px;
-  right: -32px;
+  right: -35px;
   border-radius: 50%;
+  animation-name: dot-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .description {
@@ -65,8 +75,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
-  /* min-width: 400px; */
 }
 
 .wrapper {
@@ -86,7 +94,7 @@
   align-items: center;
 }
 
-.socialIcon:hover {
+.socialIcon svg:hover path {
   fill: rgba(71, 92, 71, 0.8);
 }
 
@@ -116,6 +124,20 @@
 
 .expertise span {
   font-weight: 400;
+}
+
+@keyframes dot-animation {
+  0% {
+    transform: scale(0.8) translateX(0px);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 1000px) {
