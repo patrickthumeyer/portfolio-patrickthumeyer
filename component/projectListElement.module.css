@@ -1,0 +1,38 @@
+.projectWrapper {
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 20px 5px;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: rgba(71, 92, 71);
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.imgWrapper {
+  width: 100px;
+}
+
+.projectImage {
+  height: 50px;
+  object-fit: cover;
+}
+
+.button:hover {
+  background-color: rgba(121, 138, 121);
+}
+
+.buttonWrapper {
+}

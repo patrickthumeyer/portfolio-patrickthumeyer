@@ -67,6 +67,7 @@
   width: 200px;
   border: 5px solid rgb(43, 43, 43);
   border-radius: 50%;
+  transition: 0.4s;
 }
 
 .descriptionContainer {
@@ -94,8 +95,12 @@
   align-items: center;
 }
 
+.socialIcon svg path {
+  transition: 0.3s;
+}
+
 .socialIcon svg:hover path {
-  fill: rgba(71, 92, 71, 0.8);
+  fill: rgba(71, 92, 71);
 }
 
 .iconsContainer {
@@ -115,15 +120,55 @@
   border-radius: 8px;
   backdrop-filter: blur(5px);
   margin-top: 20px;
-  height: 50px;
+  min-height: 50px;
   color: rgba(0, 0, 0, 0.8);
   font-size: 1.2rem;
   font-weight: 600;
-  padding: 40px;
 }
 
 .expertise span {
   font-weight: 400;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.techIconWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+  margin: 10px;
+}
+
+.techLabel {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.techStackHeadline {
+  margin-right: 15px;
+  margin-left: 20px;
+  min-width: 110px;
+}
+
+.projectsArrowHeadline {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.projectHeadlineWrapper {
+  margin-top: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(160, 160, 160, 0.4);
+  backdrop-filter: blur(5px);
 }
 
 @keyframes dot-animation {
@@ -175,6 +220,14 @@
   .hero {
     height: fit-content;
   }
+
+  .expertise {
+    flex-wrap: wrap;
+  }
+
+  .techStackHeadline {
+    margin: 20px 0px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -184,6 +237,6 @@
 
   .expertise {
     width: 85%;
-    padding: 50px 15px;
+    padding: 30px 15px;
   }
 }

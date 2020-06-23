@@ -1,0 +1,9 @@
+.mainProjectsWrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

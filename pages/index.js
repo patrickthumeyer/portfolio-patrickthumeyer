@@ -1,4 +1,5 @@
 import Hero from "../component/hero";
+import css from "./index.module.css";
 
 import ProjectListElement from "../component/projectListElement";
 
@@ -8,7 +9,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      {/* {projects.map(ProjectListElement)} */}
+      <div className={css.mainProjectsWrapper}>
+        {projects.map(ProjectListElement)}
+      </div>
     </main>
   );
 }
